@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+#amount {
+  font-size: 60px !important;
+}
+
+p {
+  font-size: 32px !important;
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Inter';
+  background-image: url('https://t4.ftcdn.net/jpg/04/27/16/05/240_F_427160582_w0D5Z01pVaz32w7JzzNWTtE2n1VvvKmi.jpg');
+  background-size: cover;
+  background-color: #00000097;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(18px);
+  background-blend-mode: darken;
+}
+
+.image-container {
+  background-image: url('https://github.com/BlazeTheGr8/image-repo/blob/main/Hero-Image.jpg?raw=true');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: border-box;
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  margin: auto;
+  position: relative;
+}
+
+nav {
+  background-color: black;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#app-logo {
+  height: 38px;
+  margin-left: 10px;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  margin: 0px 5px 0 0;
+}
+
+#register-button {
+  margin: 0 15px 0 0;
+  color: white;
+  width: 100px;
+  height: fit-content;
+  font-weight: 600;
+ font-size: 10px;
+}
+
+.button-style {
+  font-family: 'Inter';
+  background: linear-gradient(to bottom, #5a057a, #8416ac);
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+#user-circle {
+  height: 25px;
+  margin: 0 15px 0 0;
+}
+
+#text-container {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.808) 80%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  width: 100%;
+  height: 40vh;
+  position: absolute;
+  bottom: 0px;
+  color: aliceblue;
+}
+
+#text-div {
+  width: fit-content;
+  margin: auto;
+  margin-top: 38px;
+  font-size: 2em !important;
+}
+
+#amount {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+#signup-button {
+  margin: auto;
+  margin-top: 10px;
+  width: 160px;
+  font-weight: bold;
+  font-size: 16px;
+  color: aliceblue;
+}
+
+#button-container-2 {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 500px) and (min-height: 800px) {
+  .image-container {
+    background-size: cover;
+    background-position-x: -9mm;
+  }
+}
+
+/* For NEW galaxy fold view width */
+@media screen and (max-width: 299px) and (min-height: 600px) {
+  .image-container {
+    background-size: cover;
+    background-position-x: -8mm;
+  }
+}
