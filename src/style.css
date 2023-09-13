@@ -130,6 +130,6 @@ nav {
 @media screen and (max-width: 299px) and (min-height: 600px) {
   .image-container {
     background-size: cover;
-    background-position-x: -8mm;
+    background-position-x: -9mm;
   }
 }
